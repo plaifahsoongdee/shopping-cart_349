@@ -1,12 +1,10 @@
-/* src/components/ProductCard.css */
 .haikyuushop {
-  text-align: center;  /* จัดให้ข้อความอยู่กึ่งกลางแนวนอน */
-  font-size: 30px;     /* ขนาดตัวอักษรใหญ่ขึ้น */
-  margin-bottom: 20px; /* เพิ่มระยะห่างด้านล่าง */
-  color: #000000;         /* เปลี่ยนสีของหัวข้อ (เลือกสีที่คุณต้องการ) */
+  text-align: center;  
+  font-size: 30px;     
+  margin-bottom: 20px; 
+  color: #000000;        
   font-weight:800; 
 }
-
 
 .product-card {
   border: 1px solid #ddd;
@@ -53,15 +51,15 @@
 .add-to-cart:hover {
   background-color: #e5533d;
 }
-/* src/components/ProductList.css */
+
 .product-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-/* src/components/ShoppingCart.css */
+
 .shopping-cart {
-  width: 400px;
+  width: auto;
   padding: 20px;
   border: 1px solid #ddd;
   background-color: #fff;
@@ -97,69 +95,66 @@
   margin-right: 10px;
 }
 
-/* src/App.css */
 .product-grid {
   margin-left: 100px;
-  margin-right: 80px;
+  margin-right: 100px;
   display: flex;
   flex-wrap: wrap;
-  gap: 100px; /* ระยะห่างระหว่างสินค้า */
-  justify-content: flex-start; /* จัดให้อยู่ทางซ้าย */
+  gap: 100px; 
+  justify-content: flex-start;
 }
 
 .product-item {
-  flex: 1 1 200px; /* กำหนดขนาดของสินค้าแต่ละตัว */
-  max-width: 220px; /* กำหนดความกว้างสูงสุดของสินค้า */
+  flex: 1 1 200px; 
+
   text-align: center;
 }
 
 .product-item img {
-  width: 100%; /* ให้รูปภาพขยายเต็มพื้นที่ */
+  width: 100%; 
   height: auto;
 }
-/* src/components/ProductItem.css */
+
 .add-to-cart-button {
-  background-color: #ff5722;  /* สีปุ่มส้ม */
-  color: white;               /* ตัวหนังสือสีขาว */
+  background-color: #ff5722;  
+  color: white;              
   border: none;
   padding: 10px 20px;
-  border-radius: 5px;         /* ขอบปุ่มโค้ง */
+  border-radius: 5px;         
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;
   transition: background-color 0.3s ease;
 }
 
-/* src/components/ProductItem.css */
 .addToCartbutton {
-  background-color: #f55757;      /* สีปุ่มส้มอ่อน */
-  color: white;                   /* ตัวหนังสือสีขาว */
+  background-color: #f55757;      
+  color: white;                  
   border: none;
-  padding: 15px 20px;             /* เพิ่ม padding เพื่อให้ปุ่มใหญ่ขึ้น */
-  border-radius: 5px;            /* ขอบโค้งมนมากขึ้น */
+  padding: 15px 20px;             
+  border-radius: 5px;            
   cursor: pointer;
-  font-size: 16px;                /* เพิ่มขนาดตัวอักษร */
-  /* font-weight: bold; */
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);  /* เพิ่มเงาใต้ปุ่ม */
-  transition: all 0.3s ease;      /* ทำให้เอฟเฟกต์เมื่อ hover ลื่นไหล */
+  font-size: 16px;                
+
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);  
+  transition: all 0.3s ease;      
 }
 
 .addToCartbutton:hover {
-  background-color: #ff0000;      /* เปลี่ยนสีเมื่อ hover ให้เข้มขึ้น */
-  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2); /* เพิ่มเงาเมื่อ hover */
-  transform: translateY(-3px);    /* ทำให้ปุ่มยกขึ้นเล็กน้อยเมื่อ hover */
+  background-color: #ff0000;     
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2); 
+  transform: translateY(-3px);   
 }
 
 .addToCartbutton:active {
-  background-color: #e64a19;      /* สีเมื่อกดปุ่ม */
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);  /* เงาเล็กลงเมื่อกดปุ่ม */
-  transform: translateY(1px);     /* ย่อปุ่มลงเล็กน้อยเมื่อกด */
+  background-color: #e64a19;      
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);  
+  transform: translateY(1px);    
 }
 
 .addToCartbutton:focus {
-  outline: none;                  /* ลบขอบสีที่แสดงเมื่อกดปุ่ม */
+  outline: none;                 
 }
-/* App.css */
 
 .product-list {
   flex: 3;
@@ -171,7 +166,7 @@
   border-left: 1px solid #ccc;
   padding-left: 20px;
 }
-/* App.css */
+
 .app {
   display: flex;
   justify-content: space-between;
@@ -210,14 +205,6 @@
   border-bottom: 1px solid #ccc;
   padding-bottom: 10px;
 }
-
-/* .cart-item img {
-  width: 50px;
-  height: 50px;
-  object-fit: cover;
-  border-radius: 4px;
-  margin-right: 10px;
-} */
 
 .cart-item-info {
   flex: 1;
@@ -271,7 +258,6 @@
   transform: scale(1.02);
 } 
 
-/* App.css */
 .cart-item-quantity {
   display: flex;
   align-items: center;
@@ -303,23 +289,12 @@
   text-align: center;
 }
 
-/* .cart-item-remove {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  font-size: 18px;
-  margin-left: 10px;
-}
-
-.cart-item-remove:hover {
-  color: #ff4d4f;
-} */
 .cart-item-image {
-  width: 50px; /* กำหนดขนาดรูป */
-  height: 50px; /* กำหนดขนาดรูป */
-  object-fit: cover; /* ให้รูปภาพมีขนาดที่พอดีกับกรอบ */
-  border-radius: 4px; /* เพิ่มความโค้งให้กับมุม */
-  margin-right: 10px; /* เว้นระยะระหว่างรูปกับข้อมูลสินค้า */
+  width: 50px; 
+  height: 50px; 
+  object-fit: cover; 
+  border-radius: 4px; 
+  margin-right: 10px;
 }
 .cart-total{
   text-align: right;
@@ -340,34 +315,17 @@
   align-items: center;
   
 }
-/* 
-.discount {
-  
-  width: 100%;
-  padding: 5px;
-  border: 2px solid #ddd;
-  border-radius: 5px;
-  font-size: 16px;
-  
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
-}
 
-.discount:focus {
-  border-color: #4CAF50;
-  box-shadow: 0 2px 10px rgba(76, 175, 80, 0.2);
-}
- */
  .coupon-container {
   display: flex;
-  justify-content: center; /* จัดกึ่งกลางแนวนอน */
-  align-items: center;     /* จัดให้อยู่ในแนวเดียวกัน */
-  gap: 10px;               /* เพิ่มช่องว่างระหว่าง input และปุ่ม */
-  margin: 20px 0;          /* เพิ่มระยะห่างจากองค์ประกอบอื่น */
+  justify-content: center;
+  align-items: center;     
+  gap: 10px;               
+  margin: 20px 0;          
 }
 
 .discount {
-  width: 165px;            /* กำหนดความกว้างของช่องกรอก */
+  width: 165px;            
   padding: 8px;
   border: 2px solid #ddd;
   border-radius: 5px;
@@ -390,8 +348,8 @@
   margin-bottom: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding: 8px 20px;
-  background-color: #ffffff; /* สีพื้นหลังเขียว */
-  color: rgb(0, 0, 0);              /* สีตัวอักษรขาว */
+  background-color: #ffffff; 
+  color: rgb(0, 0, 0);              
   border: 1px solid #dddd;
   border-radius: 5px;
   font-size: 14px;
@@ -400,16 +358,16 @@
 }
 
 .discount-button:hover {
-  background-color: #ff0000; /* สีพื้นหลังเข้มขึ้นเมื่อ hover */
+  background-color: #ff0000; 
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   border: 1px solid rgb(255, 0, 0);
   color: rgb(255, 255, 255); 
 }
 
 .cart-title {
-  text-align: center;   /* จัดให้ข้อความอยู่ตรงกลาง */
-  font-size: 24px;      /* ขนาดตัวอักษร */
-  margin-bottom: 20px;  /* ระยะห่างด้านล่าง */
+  text-align: center;  
+  font-size: 24px;      
+  margin-bottom: 20px;  
   
   
 }

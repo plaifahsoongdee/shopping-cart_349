@@ -16,7 +16,7 @@ export const products = [
   },
   {
     id: 3,
-    name: "Haikyuu!! Look Up Tobio Kageyama Uniform Ver.",
+    name: "Haikyuu!!! Look Up Tobio Kageyama Uniform Ver.",
     price: 1550,
     image: "https://en.megahobby.jp/cdn/shop/files/thumb1_de259b90-a551-4986-b52c-693d5614a5f8_600x.jpg?v=1712378899",
     quantity: 1,
@@ -84,5 +84,5 @@ export const products = [
     image: "https://en.megahobby.jp/cdn/shop/products/thumb_37c7bee0-3c52-4d84-b8ae-99bf05a1595e_600x.jpg?v=1675519104",
     quantity: 1,
   },
-  // เพิ่มสินค้าอีก 8 รายการ
+  
 ];

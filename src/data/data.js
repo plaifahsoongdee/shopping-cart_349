@@ -1,0 +1,88 @@
+// src/data/data.js
+export const products = [
+  {
+    id: 1,
+    name: "Haikyuu!! Look Up Kozume Kenma Uniform Ver.",
+    price: 1520,
+    image: "https://m.media-amazon.com/images/I/315qUmAECjL._SY500_.jpg",
+    quantity: 1,
+  },
+  {
+    id: 2,
+    name: "Haikyuu!! Look Up Shoyo Hinata Uniform Ver.",
+    price: 1500,
+    image: "https://en.megahobby.jp/cdn/shop/files/thumb2_c32d612c-7f85-40f4-a8f1-b8d8daa0ee48_300x300_crop_top.jpg?v=1712378667",
+    quantity: 1,
+  },
+  {
+    id: 3,
+    name: "Haikyuu!! Look Up Tobio Kageyama Uniform Ver.",
+    price: 1550,
+    image: "https://en.megahobby.jp/cdn/shop/files/thumb1_de259b90-a551-4986-b52c-693d5614a5f8_600x.jpg?v=1712378899",
+    quantity: 1,
+  },
+  {
+    id: 4,
+    name: "Haikyuu!! Look Up Kuroo Tetsuro Uniform Ver.",
+    price: 1520,
+    image: "https://en.megahobby.jp/cdn/shop/files/thumb2_880aa040-ed51-4ef7-9712-2b2f147dc88d_300x300_crop_top.jpg?v=1717902984",
+    quantity: 1,
+  },
+  {
+    id: 5,
+    name: "Haikyuu!! Look Up Oikawa Tooru Uniform Ver.",
+    price: 1520,
+    image: "https://en.megahobby.jp/cdn/shop/files/thumb1_be99dfad-2aa1-4399-8ffe-09edb19304fc_600x.jpg?v=1723349660",
+    quantity: 1,
+  },
+  {
+    id: 6,
+    name: "Haikyuu!! Look Up Hajime Iwaizumi Uniform Ver.",
+    price: 1500,
+    image: "https://en.megahobby.jp/cdn/shop/files/thumb2_143dbcb0-8adf-40e8-935e-a6d19855c039_600x.jpg?v=1723349792",
+    quantity: 1,
+  },
+  {
+    id: 7,
+    name: "Haikyuu!! Look Up Atsumu Miya Uniform Ver.",
+    price: 1510,
+    image: "https://en.megahobby.jp/cdn/shop/files/thumb_97f4bc77-2e96-41db-9487-e7328d26c802_600x.jpg?v=1725425405",
+    quantity: 1,
+  },
+  {
+    id: 8,
+    name: "Haikyuu!! Look Up Osamu Miya Uniform Ver.",
+    price: 1520,
+    image: "https://en.megahobby.jp/cdn/shop/files/thumb2_abe77292-a537-4947-8ffe-26a0495d20a0_large_cropped.jpg?v=1725425488",
+    quantity: 1,
+  },
+  {
+    id: 9,
+    name: "Haikyuu!! Look Up Kotaro Bokuto Complete Figure",
+    price: 1530,
+    image: "https://en.megahobby.jp/cdn/shop/files/thumb1_6d5d5255-fd0e-48e0-9a34-43faf74cf09b_600x.jpg?v=1707629138",
+    quantity: 1,
+  },
+  {
+    id: 10,
+    name: "Haikyuu!! Look Up Keiji Akaashi Complete Figure",
+    price: 1500,
+    image: "https://en.megahobby.jp/cdn/shop/files/thumb2_b05e5ba8-810c-4155-9e59-ec606ada0da0_large_cropped.jpg?v=1707630304",
+    quantity: 1,
+  },
+  {
+    id: 11,
+    name: "Haikyuu!! Look Up Kozume Kenma Complete Figure",
+    price: 1520,
+    image: "https://en.megahobby.jp/cdn/shop/files/thumb2_c2c30e95-a258-4636-b7ef-c048d22b76ee_600x.jpg?v=1698631240",
+    quantity: 1,
+  },
+  {
+    id: 12,
+    name: "Haikyuu!! Look Up Oikawa Tooru Complete Figure ",
+    price: 1510,
+    image: "https://en.megahobby.jp/cdn/shop/products/thumb_37c7bee0-3c52-4d84-b8ae-99bf05a1595e_600x.jpg?v=1675519104",
+    quantity: 1,
+  },
+  // เพิ่มสินค้าอีก 8 รายการ
+];
